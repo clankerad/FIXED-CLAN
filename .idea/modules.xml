@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CLAN.iml" filepath="$PROJECT_DIR$/CLAN.iml" />
+      <module fileurl="file://C:\Users\Sena Ferdy\AndroidStudioProjects\CLANkerad\CLAN.iml" filepath="C:\Users\Sena Ferdy\AndroidStudioProjects\CLANkerad\CLAN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CLANkerad.iml" filepath="$PROJECT_DIR$/.idea/CLANkerad.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

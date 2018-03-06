@@ -44,4 +44,13 @@ public class VenueListActivity extends AppCompatActivity{
         adapter.addFragment(new Tab4VenueList(), "Karaoke");
         viewPager.setAdapter(adapter);
     }
+
+    public static class PhotoGroup extends AppCompatActivity {
+
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_photo_group);
+        }
+    }
 }

@@ -27,15 +27,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".Activities.SmokerStatusYes" >
+        <activity android:name=".Activities.SmokerStatusYes">
             <intent-filter>
                 <action android:name="projectclan.clan.SmokerStatusYes" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Activities.RefferalCode">
             <intent-filter>
                 <action android:name="projectclan.clan.RefferalCode" />
@@ -43,7 +41,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Activities.SmokerStatusNo">
             <intent-filter>
                 <action android:name="projectclan.clan.SmokerStatusNo" />
@@ -63,7 +60,8 @@
         <activity
             android:name=".Activities.MainActivity"
             android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activities.VenueListActivity$PhotoGroup"></activity>
     </application>
 
 </manifest>

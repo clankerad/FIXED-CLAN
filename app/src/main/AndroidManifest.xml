@@ -21,29 +21,24 @@
         <activity android:name=".Activities.VenueListActivity" />
         <activity android:name=".Activities.VenueActivity" />
         <activity android:name=".Activities.SmokerStatus">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".Activities.SmokerStatusYes">
             <intent-filter>
-                <action android:name="projectclan.clan.SmokerStatusYes" />
+                <action android:name=".SmokerStatusYes" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity android:name=".Activities.RefferalCode">
             <intent-filter>
-                <action android:name="projectclan.clan.RefferalCode" />
+                <action android:name=".RefferalCode" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity android:name=".Activities.SmokerStatusNo">
             <intent-filter>
-                <action android:name="projectclan.clan.SmokerStatusNo" />
+                <action android:name=".SmokerStatusNo" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -52,7 +47,7 @@
             android:name=".Activities.Event"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
-                <action android:name="projectclan.clan.Event" />
+                <action android:name=".Event" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
